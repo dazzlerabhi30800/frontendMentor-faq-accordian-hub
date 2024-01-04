@@ -39,9 +39,9 @@ function populateAccordian() {
     <div class="accordian">
 <div class="question" onclick={handleClick(${id})}>
         <h2>${question}</h2>
-<button class="${show ? "btn active" : "btn"}">
+<div class="${show ? "btn active" : "btn"}">
       <i class="fas fa-${show ? "minus" : "plus"}"></i>
-        </button>
+        </div>
       </div>
       <p class="${show ? "answer show" : "answer"}">
       ${answer}
